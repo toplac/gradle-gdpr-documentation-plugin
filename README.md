@@ -1,6 +1,6 @@
-# gdpr-documentation-poc
+# gradle-gdpr-documentation-plugin
 
-PoC for an automated GDPR documentation generation tool
+Gradle plugin to generate GDPR documentation for your project based on annotations on data classes.
 
 ## Disclaimer
 
