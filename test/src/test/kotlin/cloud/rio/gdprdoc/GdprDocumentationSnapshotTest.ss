@@ -147,7 +147,7 @@ digraph G {
 
 | Name | Responsible For Deletion | Retention | Fields | Links |
 | --- | --- | --- | --- | ----- |
-| [DriverEventDb](#cloud.rio.example.adapter.db.DriverEventDb#DB) | Rio team | Kept for 30 days | `assetId`, `timestamp`, `position`, `driverCardNumber` | [IotDataKafka](#cloud.rio.example.adapter.kafka.IotDataKafka#IN), [DriverEventRest](#cloud.rio.example.adapter.rest.DriverEventRest#OUT) |
+| [DriverEventDb](#cloud.rio.example.adapter.db.DriverEventDb#DB) | Dev team | Kept for 30 days | `assetId`, `timestamp`, `position`, `driverCardNumber` | [IotDataKafka](#cloud.rio.example.adapter.kafka.IotDataKafka#IN), [DriverEventRest](#cloud.rio.example.adapter.rest.DriverEventRest#OUT) |
 | [DriverKafka](#cloud.rio.example.adapter.kafka.DriverKafka#DB) | Owner of the upstream data source | Kept until data is deleted upstream | `driverCardNumber`, `name` | [DriverKafka](#cloud.rio.example.adapter.kafka.DriverKafka#IN), [DriverEventRest](#cloud.rio.example.adapter.rest.DriverEventRest#OUT) |
 | [PermissionsKafka](#cloud.rio.example.adapter.kafka.PermissionsKafka#DB) | Owner of the upstream data source | Kept until data is deleted upstream | `userId`, `hasAccess` | [PermissionsKafka](#cloud.rio.example.adapter.kafka.PermissionsKafka#IN) |
 
