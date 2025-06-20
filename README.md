@@ -2,6 +2,15 @@
 
 PoC for an automated GDPR documentation generation tool
 
+## Disclaimer
+
+> [!WARNING]
+> This plugin will only create parts of the GDPR documentation. If you want to use this for your own GDPR documentation,
+> make sure to classify the data according to your own requirements. RIO is not responsible for your documentation.
+
+> [!NOTE]
+> RIO maintains this repository for their internal documentation. If you need different / additional functionality, please fork the project.
+
 ## Development
 
 ```
