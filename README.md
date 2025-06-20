@@ -1,6 +1,7 @@
 # gradle-gdpr-documentation-plugin
 
-Gradle plugin to generate GDPR documentation for your project based on annotations on data classes.
+Gradle plugin to generate data classification documentation (needed for the GDPR documentation) for your project based
+on annotations on data classes.
 
 ## Disclaimer
 
