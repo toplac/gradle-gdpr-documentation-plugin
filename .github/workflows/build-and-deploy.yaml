@@ -19,6 +19,6 @@ jobs:
           distribution: 'corretto'
           java-version: '21'
       - name: gradle-build
-        run: > 
+        run: | 
           ./gradlew build
           ./gradlew :test:generateGdprDocumentation
