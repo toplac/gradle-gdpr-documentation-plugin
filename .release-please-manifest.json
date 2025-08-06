@@ -1,16 +1,3 @@
 {
-  "packages": {
-    ".": {
-      "release-type": "simple",
-      "include-v-in-tag": true,
-      "extra-files": [
-        {
-          "type": "plain-text",
-          "path": "gradle.properties",
-          "search": "^version=(.*)$",
-          "replace": "version=${version}"
-        }
-      ]
-    }
-  }
+  ".": "0.0.2"
 }
