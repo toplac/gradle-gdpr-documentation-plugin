@@ -33,7 +33,7 @@ dependencies {
     implementation(gradleApi())
     implementation("io.github.classgraph:classgraph:4.8.162")
 
-    api("cloud.rio.gdprdoc:core:0.0.1")
+    api("cloud.rio.gdprdoc:core:${project.version}")
 }
 
 java {
