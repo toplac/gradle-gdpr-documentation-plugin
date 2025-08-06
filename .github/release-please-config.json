@@ -5,7 +5,7 @@
       "include-v-in-tag": true,
       "extra-files": [
         {
-          "type": "plain-text",
+          "type": "generic",
           "path": "gradle.properties",
           "search": "^version=(.*)$",
           "replace": "version=${version}"
